@@ -1,0 +1,54 @@
+.img-fluid{
+    width: 90%;
+    height: 100px;
+}
+
+ .lab {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    color: green;
+    padding-left: 25%;
+}
+
+.shadow{
+    width: 90%;
+    width: 100% 100%;
+    height: 100px;
+    margin-top: -100px;
+    background-color: black;
+    position: relative;
+    opacity: 0;
+
+}
+
+
+
+.shadow:hover{
+    width: 90%;
+    width: 100% 100%;
+    height: 100px;
+    margin-top: -100px;
+    background-color: orange;
+    position: relative;
+    opacity: 1;
+    transform: rotateY(360deg);
+    transition-duration: 2s;
+    text-align: center;
+
+}
+.lb{
+    opacity: 1;
+    color: white
+}
+
+
+
+@media screen and (max-width:800px){
+
+.lab{
+    font-size: 12px;
+    padding-left: 12%;
+}
+
+}
